@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Parcel Sandbox</title>
+        <meta charset="UTF-8" />
+    </head>
+
+    <body>
+        <h1>Random Number Game</h1>
+        <div>
+            <h3 class="js-title">Generate a number between 0 and <span>120</span></h3>
+            <datalist id="number">
+                <option value="30"></option>
+                <option value="60"></option>
+                <option value="90"></option>
+                <option value="120"></option>
+            </datalist>
+            <input
+              List="number"
+              id="js-range"
+              type="range"
+              min="0"
+              max="120"
+              value="0"
+              step="1"
+            />
+        </div>
+        <form id="js-guess">
+            <label>Guess the number:</label>
+            <input type="number" id='input' max="120" min="0" />
+            <input type='submit' value='Play!'>
+        </form>
+        <div id="js-result">
+            <span></span>
+        </div>
+        <script src="homework.js"></script>
+    </body>
+</html>
