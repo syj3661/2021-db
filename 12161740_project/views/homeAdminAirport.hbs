@@ -1,0 +1,23 @@
+<h1>공항 정보 입력</h1>
+
+<form name="airport" method="post" action='/adminAirport'>
+    <div>
+        <label for="airport_code">Airport_code</label>
+        <input id="airport_code" name="airport_code" type="text" required placeholder="Airport_code">
+    </div>
+    <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Name">
+    </div>
+    <div>
+        <label for="city">City</label>
+        <input id="city" name="city" type="text" required placeholder="City">
+    </div>
+    <div>
+        <label for="state">state</label>
+        <input id="state" name="state" type="text" required placeholder="state">
+    </div>
+     <div>
+        <input type="submit" value="삽입">
+    </div>
+</form>

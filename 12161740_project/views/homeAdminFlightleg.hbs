@@ -1,0 +1,43 @@
+<h1>항공편 정보 입력</h1>
+
+<form name="leg_instance" method="post" action='/adminFlightleg'>
+    <div>
+        <label for="flight_number">Flight_number</label>
+        <input id="flight_number" name="flight_number" type="text" required placeholder="Flight_number">
+    </div>
+    <div>
+        <label for="leg_number">Leg_number</label>
+        <input id="leg_number" name="leg_number" type="text" placeholder="Leg_number">
+    </div>
+    <div>
+        <label for="date">Date</label>
+        <input id="date" name="date" type="text" required placeholder="Date">
+    </div>
+    <div>
+        <label for="number_of_available_seats">Number_of_available_seats</label>
+        <input id="number_of_available_seats" name="number_of_available_seats" type="text" placeholder="Number_of_available_seats">
+    </div>
+    <div>
+        <label for="airplane_id">Airplane_id</label>
+        <input id="airplane_id" name="airplane_id" type="text" placeholder="Airplane_id">
+    </div>
+    <div>
+        <label for="departure_airport_code">Departure_airport_code</label>
+        <input id="departure_airport_code" name="departure_airport_code" type="text" placeholder="Departure_airport_code">
+    </div>
+    <div>
+        <label for="departure_time">Departure_time</label>
+        <input id="departure_time" name="departure_time" type="text" placeholder="Departure_time">
+    </div>
+    <div>
+        <label for="arrival_airport_code">Arrival_airport_code</label>
+        <input id="arrival_airport_code" name="arrival_airport_code" type="text" placeholder="Arrival_airport_code">
+    </div>
+      <div>
+        <label for="arrival_time">Arrival_time</label>
+        <input id="arrival_time" name="arrival_time" type="text" placeholder="Arrival_time">
+    </div>
+    <div>
+        <input type="submit" value="삽입">
+    </div>
+</form>
